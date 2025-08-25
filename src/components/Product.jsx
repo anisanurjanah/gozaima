@@ -2,13 +2,13 @@ export default function Product() {
     return (
         <>
             <section>
-                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+                <div className="section-wrapper">
                     <header>
-                        <h2 className="text-xl text-center font-bold text-gray-900 sm:text-3xl">
+                        <h2 className="section-title text-center">
                             Product Collection
                         </h2>
 
-                        <p className="mt-4 text-center text-gray-500">
+                        <p className="section-subtitle text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
                             dicta incidunt est ipsam, officia dolor fugit natus?
                         </p>

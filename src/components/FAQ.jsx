@@ -2,8 +2,17 @@ export default function FrequentlyAskedQuestions() {
     return (
         <>
             <section>
-                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-                    <h1 className="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">Frequently asked questions</h1>
+                <div className="section-wrapper">
+                    <header>
+                        <h2 className="section-title">
+                            Frequently Asked Questions
+                        </h2>
+
+                        <p className="section-subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
+                            dicta incidunt est ipsam, officia dolor fugit natus?
+                        </p>
+                    </header>
 
                     <hr className="my-6 border-gray-200 dark:border-gray-700" />
 

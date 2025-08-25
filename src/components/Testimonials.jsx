@@ -2,11 +2,18 @@ export default function Testimonials() {
     return (
         <>
             <section>
-                <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-                    <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-                        What our <span className="text-blue-500 ">clients</span> say
-                    </h1>
+                <div className="section-wrapper">
+                    <header>
+                        <h2 className="section-title">
+                            What Our <span className="text-blue-500 ">Clients</span> Say
+                        </h2>
 
+                        <p className="section-subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
+                            dicta incidunt est ipsam, officia dolor fugit natus?
+                        </p>
+                    </header>
+                        
                     <section className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
                         <div className="p-8 border rounded-lg dark:border-gray-700">
                             <p className="leading-loose text-gray-500 dark:text-gray-400">
