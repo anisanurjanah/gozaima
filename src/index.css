@@ -21,6 +21,7 @@
   @apply text-gray-500 transition hover:text-gray-500/75;
 }
 
+
 /* BUTTONS */
 .btn {
   @apply rounded-md px-5 py-2.5 text-sm font-medium;
@@ -39,6 +40,40 @@
 }
 
 
+/* HERO */
+.hero-section {
+  @apply bg-white lg:grid lg:grid-cols-2 lg:h-screen lg:items-center;
+}
+
+.hero-container {
+  @apply mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8;
+}
+
+.hero-title {
+  @apply text-4xl font-bold text-gray-900 sm:text-5xl;
+}
+
+.hero-highlight {
+  @apply text-teal-600;
+}
+
+.hero-subtitle {
+  @apply mt-4 text-lg text-gray-600;
+}
+
+.hero-actions {
+  @apply mt-6 flex gap-4;
+}
+
+.hero-primary-btn {
+  @apply inline-block rounded-md bg-teal-600 px-6 py-3 text-white font-medium shadow hover:bg-teal-700 transition;
+}
+
+.hero-secondary-btn {
+  @apply inline-block rounded-md border border-gray-300 px-6 py-3 text-gray-700 font-medium hover:bg-gray-100 transition;
+}
+
+
 /* MAIN CONTENT */
 .section-wrapper {
   @apply mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8;
@@ -50,4 +85,72 @@
 
 .section-subtitle {
   @apply mt-4 text-gray-500;
+}
+
+
+/* PRODUCT */
+.product-highlight {
+  @apply col-span-3;
+}
+
+.product-highlight-link {
+  @apply relative block;
+}
+
+.product-highlight-image-wrapper {
+  @apply relative h-[350px] sm:h-[450px];
+}
+
+.product-highlight-img-primary {
+  @apply absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0 transition-opacity duration-300;
+}
+
+.product-highlight-img-hover {
+  @apply absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300;
+}
+
+.product-highlight-content {
+  @apply absolute inset-0 flex flex-col items-start justify-end p-6;
+}
+
+.product-highlight-title {
+  @apply text-xl font-medium text-white;
+}
+
+.product-highlight-description {
+  @apply mt-1.5 text-xs text-pretty text-white;
+}
+
+.product-highlight-btn {
+  @apply mt-3 inline-block bg-black px-5 py-3 text-xs font-medium tracking-wide text-white uppercase;
+}
+
+
+/* PRODUCT CARD */
+.product-grid {
+  @apply mt-8 gap-4 grid grid-cols-3;
+}
+
+.product-card {
+  @apply relative block border border-gray-100;
+}
+
+.product-card-img {
+  @apply h-80 w-full object-cover;
+}
+
+.product-card-body {
+  @apply p-4;
+}
+
+.product-card-title {
+  @apply text-xl font-medium text-gray-900;
+}
+
+.product-card-description {
+  @apply mt-2 text-pretty text-gray-700;
+}
+
+.product-card-btn {
+  @apply mt-4 block rounded-md border border-indigo-900 bg-indigo-900 px-5 py-3 text-sm text-center font-medium tracking-widest text-white uppercase transition-colors hover:bg-white hover:text-indigo-900;
 }

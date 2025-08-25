@@ -1,36 +1,30 @@
 export default function Hero() {
     return (
         <>
-            <section className="bg-white lg:grid lg:h-screen lg:place-content-center">
-                <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
-                    <div className="mx-auto max-w-prose text-center">
-                        <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
-                            Understand user flow and
-                            <strong className="text-indigo-600"> increase </strong>
-                            conversions
+            <section className="hero-section">
+                <div className="hero-container">
+                    <div className="max-w-xl">
+                        <h1 className="hero-title">
+                            Dimsum Premium untuk <span className="hero-highlight">Bisnis Anda</span>
                         </h1>
 
-                        <p className="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi. Natus, provident
-                            accusamus impedit minima harum corporis iusto.
+                        <p className="hero-subtitle">
+                            Pasokan grosir dimsum dengan kualitas restoran, harga kompetitif, dan pengiriman konsisten untuk mendukung bisnis Anda.
                         </p>
 
-                        <div className="mt-4 flex justify-center gap-4 sm:mt-6">
-                            <a
-                                className="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
-                                href="#"
-                            >
-                                Get Started
-                            </a>
-
-                            <a
-                                className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900"
-                                href="#"
-                            >
-                                Learn More
-                            </a>
+                        <div className="hero-actions">
+                            <a href="#" className="hero-primary-btn">Request Pricelist</a>
+                            <a href="#" className="hero-secondary-btn">Hubungi Kami</a>
                         </div>
                     </div>
+                </div>
+
+                <div className="hidden lg:block">
+                    <img
+                        src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Dimsum"
+                        className="w-full h-full object-cover"
+                    />
                 </div>
             </section>
         </>
