@@ -89,6 +89,14 @@
 
 
 /* PRODUCT */
+#product {
+  /* @apply bg-gray-200; */
+}
+
+.product-highlight-grid {
+  @apply mt-8 grid grid-cols-3;
+}
+
 .product-highlight {
   @apply col-span-3;
 }
@@ -127,7 +135,7 @@
 
 
 /* PRODUCT CARD */
-.product-grid {
+.product-card-grid {
   @apply mt-8 gap-4 grid grid-cols-3;
 }
 
@@ -154,3 +162,100 @@
 .product-card-btn {
   @apply mt-4 block rounded-md border border-indigo-900 bg-indigo-900 px-5 py-3 text-sm text-center font-medium tracking-widest text-white uppercase transition-colors hover:bg-white hover:text-indigo-900;
 }
+
+
+/* STEPS */
+.steps-grid {
+  @apply grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-4;
+}
+
+.steps-card {
+  @apply flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800;
+}
+
+.steps-icon {
+  @apply inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500;
+}
+
+.steps-heading {
+  @apply text-xl font-semibold text-gray-700 capitalize dark:text-white;
+}
+
+.steps-text {
+  @apply text-gray-500 dark:text-gray-300;
+}
+
+.steps-link {
+  @apply flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500;
+}
+
+
+/* TESTIMONIALS */
+.testimonials-grid {
+    @apply grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3;
+}
+
+.testimonial-card {
+  @apply p-8 border rounded-lg dark:border-gray-700;
+}
+
+.testimonial-text {
+  @apply leading-loose text-gray-500 dark:text-gray-400;
+}
+
+.testimonial-user {
+  @apply flex items-center mt-8 -mx-2;
+}
+
+.testimonial-avatar {
+  @apply object-cover mx-2 rounded-full w-14 h-14 shrink-0 ring-4 ring-gray-300 dark:ring-gray-700;
+}
+
+.testimonial-info {
+  @apply mx-2;
+}
+
+.testimonial-name {
+  @apply font-semibold text-gray-800 dark:text-white;
+}
+
+.testimonial-role {
+  @apply text-sm text-gray-500;
+}
+
+
+/* CALL TO ACTION */
+.cta-section {
+    @apply overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center;
+}
+
+.cta-content {
+  @apply p-8 md:p-12 lg:px-16 lg:py-24;
+}
+
+.cta-inner {
+  @apply mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right;
+}
+
+.cta-title {
+  @apply text-2xl font-bold text-gray-900 md:text-3xl;
+}
+
+.cta-subtitle {
+  @apply hidden text-gray-500 md:mt-4 md:block;
+}
+
+.cta-btn-wrapper {
+  @apply mt-4 md:mt-8;
+}
+
+.cta-btn {
+  @apply inline-block rounded-sm bg-emerald-600 px-12 py-3 text-sm font-medium text-white 
+          transition hover:bg-emerald-700 focus:ring-3 focus:ring-yellow-400 focus:outline-hidden;
+}
+
+.cta-image {
+  @apply h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] 
+          md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px];
+}
+

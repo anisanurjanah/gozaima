@@ -1,7 +1,7 @@
 export default function Product() {
     return (
         <>
-            <section>
+            <section id="product">
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title text-center">
@@ -14,7 +14,7 @@ export default function Product() {
                         </p>
                     </header>
 
-                    <ul className="mt-8 grid grid-cols-3">
+                    <ul className="product-hightlight-grid">
                         <li className="product-highlight">
                             <a href="#" className="product-highlight-link">
                                 <div className="product-highlight-image-wrapper">
@@ -48,7 +48,7 @@ export default function Product() {
                         </li>
                     </ul>
 
-                    <ul className="mt-4 gap-2 grid grid-cols-3">
+                    <ul className="product-card-grid">
                         {[1, 2, 3].map((i) => (
                             <li key={i}>
                             <a href="#" className="product-card">
