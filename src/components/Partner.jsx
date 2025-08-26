@@ -1,7 +1,7 @@
 export default function Partner() {
     return (
         <>
-            <section>
+            <section id="partner">
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title">
@@ -14,41 +14,59 @@ export default function Partner() {
                         </p>
                     </header>
 
-                    <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-                        <div className="flex flex-col items-center p-8">
-                            <p className="w-32 h-32 bg-gray-200 rounded-full dark:bg-gray-700 ring-4 ring-gray-300 dark:ring-gray-600"></p>
-                            <h1 className="w-40 h-2 mx-auto mt-6 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
-
-                            <p className="w-32 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
-
-                            <p className="w-56 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+                    <div className="partner-list">
+                        <div className="partner-card">
+                            <img 
+                                src="https://picsum.photos/150/150?random=1" 
+                                alt="client logo" 
+                                className="partner-logo"
+                            />
+                            <h1 className="partner-title">Client One</h1>
                         </div>
 
-                        <div className="flex flex-col items-center p-8">
-                            <p className="w-32 h-32 bg-gray-200 rounded-full dark:bg-gray-700 ring-4 ring-gray-300 dark:ring-gray-600"></p>
-                            <h1 className="w-40 h-2 mx-auto mt-6 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
-
-                            <p className="w-32 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
-
-                            <p className="w-56 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+                        <div className="partner-card">
+                            <img 
+                                src="https://picsum.photos/150/150?random=2" 
+                                alt="client logo" 
+                                className="partner-logo"
+                            />
+                            <h1 className="partner-title">Client Two</h1>
                         </div>
 
-                        <div className="flex flex-col items-center p-8">
-                            <p className="w-32 h-32 bg-gray-200 rounded-full dark:bg-gray-700 ring-4 ring-gray-300 dark:ring-gray-600"></p>
-                            <h1 className="w-40 h-2 mx-auto mt-6 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
-
-                            <p className="w-32 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
-
-                            <p className="w-56 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+                        <div className="partner-card">
+                            <img 
+                                src="https://picsum.photos/150/150?random=3" 
+                                alt="client logo" 
+                                className="partner-logo"
+                            />
+                            <h1 className="partner-title">Client Three</h1>
                         </div>
 
-                        <div className="flex flex-col items-center p-8">
-                            <p className="w-32 h-32 bg-gray-200 rounded-full dark:bg-gray-700 ring-4 ring-gray-300 dark:ring-gray-600"></p>
-                            <h1 className="w-40 h-2 mx-auto mt-6 bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
+                        <div className="partner-card">
+                            <img 
+                                src="https://picsum.photos/150/150?random=4" 
+                                alt="client logo" 
+                                className="partner-logo"
+                            />
+                            <h1 className="partner-title">Client Four</h1>
+                        </div>
 
-                            <p className="w-32 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
-
-                            <p className="w-56 h-2 mx-auto mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
+                        <div className="partner-card">
+                            <img 
+                                src="https://picsum.photos/150/150?random=4" 
+                                alt="client logo" 
+                                className="partner-logo"
+                            />
+                            <h1 className="partner-title">Client Four</h1>
+                        </div>
+                        
+                        <div className="partner-card">
+                            <img 
+                                src="https://picsum.photos/150/150?random=4" 
+                                alt="client logo" 
+                                className="partner-logo"
+                            />
+                            <h1 className="partner-title">Client Four</h1>
                         </div>
                     </div>
                 </div>

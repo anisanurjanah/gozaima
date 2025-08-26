@@ -42,7 +42,7 @@
 
 /* HERO */
 .hero-section {
-  @apply bg-white lg:grid lg:grid-cols-2 lg:h-screen lg:items-center;
+  @apply bg-blue-300 lg:grid lg:grid-cols-2 lg:h-screen lg:items-center;
 }
 
 .hero-container {
@@ -89,10 +89,6 @@
 
 
 /* PRODUCT */
-#product {
-  /* @apply bg-gray-200; */
-}
-
 .product-highlight-grid {
   @apply mt-8 grid grid-cols-3;
 }
@@ -192,7 +188,7 @@
 
 /* TESTIMONIALS */
 .testimonials-grid {
-    @apply grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3;
+  @apply grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3;
 }
 
 .testimonial-card {
@@ -226,11 +222,11 @@
 
 /* CALL TO ACTION */
 .cta-section {
-    @apply overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center;
+  @apply overflow-hidden bg-blue-200 sm:grid sm:grid-cols-2 sm:items-center;
 }
 
 .cta-content {
-  @apply p-8 md:p-12 lg:px-16 lg:py-24;
+  @apply p-8 md:p-12 lg:p-16;
 }
 
 .cta-inner {
@@ -259,3 +255,133 @@
           md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px];
 }
 
+
+/* FREQUENTLY ASKED QUESTIONS */
+.faq-divider {
+  @apply my-6 border-gray-200 dark:border-gray-700;
+}
+
+.faq-item {
+  @apply mb-6;
+}
+
+.faq-btn {
+  @apply flex items-center focus:outline-none;
+}
+
+.faq-icon {
+  @apply flex-shrink-0 w-6 h-6 text-blue-500;
+}
+
+.faq-question {
+  @apply mx-4 text-xl text-gray-700 dark:text-white;
+}
+
+.faq-answer {
+  @apply flex mt-8 md:mx-10;
+}
+
+.faq-answer-border {
+  @apply border border-blue-500;
+}
+
+.faq-answer-text {
+  @apply max-w-3xl px-4 text-gray-500 dark:text-gray-300;
+}
+
+
+/* PARTNER */
+.partner-list {
+  @apply flex gap-6 overflow-x-auto py-6;
+}
+
+.partner-card {
+  @apply flex-shrink-0 flex flex-col items-center p-6;
+  min-width: 220px;
+}
+
+.partner-logo {
+  @apply w-24 h-24 rounded-full ring-4 ring-gray-200 object-cover;
+}
+
+.partner-title {
+  @apply mt-4 text-lg font-semibold text-gray-800;
+}
+
+
+/* FOOTER */
+footer {
+  @apply bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700;
+}
+
+.footer-wrapper {
+  @apply mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24;
+}
+
+.footer-grid {
+  @apply grid grid-cols-1 gap-8 lg:grid-cols-3;
+}
+
+.footer-brand {
+  @apply flex justify-center text-teal-600 sm:justify-start;
+}
+
+.footer-brand-text {
+  @apply mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left;
+}
+
+.footer-links-grid {
+  @apply grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2;
+}
+
+.footer-section {
+  @apply text-center sm:text-left;
+}
+
+.footer-section h2 {
+  @apply text-sm font-medium text-gray-900 dark:text-white;
+}
+
+.footer-links {
+  @apply mt-6 space-y-4;
+}
+
+.footer-link {
+  @apply text-gray-700 transition hover:text-gray-700/75 dark:text-gray-200 dark:hover:text-white;
+}
+
+.footer-link-contact {
+  @apply flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end;
+}
+
+.footer-link-contact-icon {
+  @apply size-5 shrink-0 text-gray-900 shadow-sm;
+}
+
+.footer-link-contact address {
+  @apply -mt-0.5 flex-1 text-gray-700 not-italic;
+}
+
+.footer-socials {
+  @apply flex justify-center gap-6 sm:justify-start mt-6;
+}
+
+.footer-socials a {
+  @apply text-gray-500 transition hover:text-gray-500/75 dark:text-gray-400 dark:hover:text-gray-300;
+}
+
+.footer-bottom {
+  @apply mt-12 border-t border-gray-100 pt-6 dark:border-gray-800;
+}
+
+.footer-bottom-content {
+  @apply text-center sm:flex sm:justify-between sm:text-left;
+}
+
+.footer-bottom-text {
+  @apply mt-4 text-center text-sm text-gray-500 dark:text-gray-400;
+}
+
+.footer-bottom-link {
+  @apply inline-block text-teal-600 underline transition hover:text-teal-600/75;
+}
