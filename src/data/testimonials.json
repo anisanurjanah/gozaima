@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "text": "“The premium dimsum quality exceeded our expectations. Our restaurant customers love it and we keep reordering every month.”",
+            "name": "Michael Chen",
+            "role": "Purchasing Manager, Golden Dragon Restaurant",
+            "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+        },
+        {
+            "id": 2,
+            "text": "“Great supplier for bulk orders. The frozen packs are consistent in quality and perfect for our hotel kitchen operations.”",
+            "name": "Sarah Johnson",
+            "role": "Executive Chef, Oceanview Hotel",
+            "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        {
+            "id": 3,
+            "text": "“They provide reliable delivery and professional communication. A trustworthy partner for our catering business.”",
+            "name": "David Park",
+            "role": "Founder, Park’s Catering Services",
+            "avatar": "https://randomuser.me/api/portraits/men/28.jpg"
+        },
+        {
+            "id": 4,
+            "text": "“We’ve tried many suppliers, but their premium mix dimsum is the best for our supermarket distribution.”",
+            "name": "Anna Müller",
+            "role": "Category Buyer, FreshMart Supermarket",
+            "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+        }
+    ]
+}

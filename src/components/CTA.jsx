@@ -5,13 +5,12 @@ export default function CallToAction() {
                 <div className="cta-content">
                     <div className="cta-inner">
                         <h2 className="cta-title">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                            Partner With Us for Premium Dimsum Supply
                         </h2>
 
                         <p className="cta-subtitle">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam
-                            sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
-                            quisque ut interdum tincidunt duis.
+                            We provide high–quality frozen dimsum in bulk for restaurants, hotels, catering services, and resellers. 
+                            Enjoy consistent taste, reliable delivery, and competitive wholesale pricing to grow your business with us.
                         </p>
 
                         <div className="cta-btn-wrapper">
@@ -19,7 +18,7 @@ export default function CallToAction() {
                                 href="#"
                                 className="cta-btn"
                             >
-                                Get Started Today
+                                Request a Quote
                             </a>
                         </div>
                     </div>
@@ -27,7 +26,7 @@ export default function CallToAction() {
 
                 <div className="cta-content">
                     <img
-                        alt=""
+                        alt="Dimsum Supply Gozaima"
                         src="https://images.unsplash.com/photo-1484959014842-cd1d967a39cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                         className="cta-img"
                     />

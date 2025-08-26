@@ -220,7 +220,7 @@ html {
 }
 
 .testimonial-text {
-  @apply leading-loose text-gray-500 dark:text-gray-400;
+  @apply leading-loose text-justify text-gray-500 dark:text-gray-400;
 }
 
 .testimonial-user {

@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Send Inquiry",
+            "description": "Contact us to request product details, pricing, and minimum order quantity (MOQ).",
+            "icon": "MailPlus"
+        },
+        {
+            "id": 2,
+            "title": "Get Quotation & Confirm",
+            "description": "We provide a tailored quotation. Once terms are agreed, confirm your purchase order.",
+            "icon": "FileCheck"
+        },
+        {
+            "id": 3,
+            "title": "Production & Packaging",
+            "description": "Your dimsum order will be freshly produced, frozen, and packaged for distribution.",
+            "icon": "PackageCheck"
+        },
+        {
+            "id": 4,
+            "title": "Delivery & Ongoing Support",
+            "description": "We deliver on time and provide support for repeat orders and long-term partnerships.",
+            "icon": "Truck"
+        }
+    ]
+}

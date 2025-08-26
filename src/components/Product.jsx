@@ -1,9 +1,9 @@
-import product from '@/data/products.json'
+import products from '@/data/products.json'
 
 export default function Product() {
-    const products = product.data;
-    const productHighlight = products[0];
-    const productItem = products.slice(1);
+    const product = products.data;
+    const productHighlight = product[0];
+    const productItem = product.slice(1);
 
     return (
         <>
