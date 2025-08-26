@@ -12,8 +12,8 @@ export default function Steps() {
                         </h2>
 
                         <p className="section-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
-                            dicta incidunt est ipsam, officia dolor fugit natus?
+                            Discover a simple step-by-step process designed to make your experience 
+                            effortless, fast, and enjoyable.
                         </p>
                     </header>
 

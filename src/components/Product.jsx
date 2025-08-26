@@ -11,12 +11,12 @@ export default function Product() {
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title text-center">
-                            Product Collection
+                            Dimsum Collection
                         </h2>
 
                         <p className="section-subtitle text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
-                            dicta incidunt est ipsam, officia dolor fugit natus?
+                            Discover our handpicked selection of dimsum, crafted with authentic taste 
+                            and a modern twist. Perfect for sharing, snacking, or indulging anytime.
                         </p>
                     </header>
 

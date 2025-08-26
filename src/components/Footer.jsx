@@ -51,8 +51,7 @@ export default function Footer() {
                             </div>
 
                             <p className="footer-brand-text">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
-                                cum itaque neque.
+                                Crafted with passion, serving authentic dim sum flavors that bring people together. 
                             </p>
 
                             <ul className="footer-socials">

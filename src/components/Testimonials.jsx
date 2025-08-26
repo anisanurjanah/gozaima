@@ -11,8 +11,8 @@ export default function Testimonials() {
                         </h2>
 
                         <p className="section-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
-                            dicta incidunt est ipsam, officia dolor fugit natus?
+                            Discover how our clients have transformed their ideas into reality with us.  
+                            Real stories. Real results.
                         </p>
                     </header>
                         

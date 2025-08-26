@@ -11,8 +11,8 @@ export default function Partner() {
                         </h2>
 
                         <p className="section-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
-                            dicta incidunt est ipsam, officia dolor fugit natus?
+                            Trusted by amazing brands and businesses who believe in what we do.  
+                            Here’s a glimpse of the people we’ve partnered with along the way.
                         </p>
                     </header>
 

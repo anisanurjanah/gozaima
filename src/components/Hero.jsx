@@ -5,16 +5,16 @@ export default function Hero() {
                 <div className="hero-container">
                     <div className="max-w-xl">
                         <h1 className="hero-title">
-                            Dimsum Premium untuk <span className="hero-highlight">Bisnis Anda</span>
+                            Premium Dimsum for <span className="hero-highlight">Your Business</span>
                         </h1>
 
                         <p className="hero-subtitle">
-                            Pasokan grosir dimsum dengan kualitas restoran, harga kompetitif, dan pengiriman konsisten untuk mendukung bisnis Anda.
+                            Wholesale supply of dimsum with restaurant-quality taste, competitive pricing, 
+                            and consistent delivery to support your business.
                         </p>
 
                         <div className="hero-actions">
-                            <a href="#" className="hero-primary-btn">Request Pricelist</a>
-                            <a href="#" className="hero-secondary-btn">Hubungi Kami</a>
+                            <a href="#" className="hero-btn">Let’s Talk</a>
                         </div>
                     </div>
                 </div>
