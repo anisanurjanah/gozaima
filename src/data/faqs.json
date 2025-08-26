@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "question": "What is the minimum order quantity (MOQ)?",
+            "answer": "Our MOQ starts from 50 packs per product variant. For large-scale buyers such as hotels or distributors, we can adjust accordingly."
+        },
+        {
+            "id": 2,
+            "question": "Do you offer custom packaging with our brand?",
+            "answer": "Yes, we provide OEM/white-label services. Minimum volume requirements apply for custom packaging."
+        },
+        {
+            "id": 3,
+            "question": "How long is the shelf life of your dimsum products?",
+            "answer": "Our frozen dimsum products can last up to 12 months if stored properly at -18°C."
+        },
+        {
+            "id": 4,
+            "question": "Do you provide delivery for bulk orders?",
+            "answer": "Yes, we deliver within Jabodetabek with our cold-chain logistics. For outside the region, we can coordinate with third-party delivery services."
+        },
+        {
+            "id": 5,
+            "question": "Can I request samples before placing a bulk order?",
+            "answer": "Of course. We provide sample packs so you can test the quality and taste before confirming your order."
+        }
+    ]
+}

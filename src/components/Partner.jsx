@@ -1,3 +1,5 @@
+import partners from '@/data/partners.json'
+
 export default function Partner() {
     return (
         <>
@@ -15,59 +17,18 @@ export default function Partner() {
                     </header>
 
                     <div className="partner-list">
-                        <div className="partner-card">
-                            <img 
-                                src="https://picsum.photos/150/150?random=1" 
-                                alt="client logo" 
-                                className="partner-logo"
-                            />
-                            <h1 className="partner-title">Client One</h1>
-                        </div>
-
-                        <div className="partner-card">
-                            <img 
-                                src="https://picsum.photos/150/150?random=2" 
-                                alt="client logo" 
-                                className="partner-logo"
-                            />
-                            <h1 className="partner-title">Client Two</h1>
-                        </div>
-
-                        <div className="partner-card">
-                            <img 
-                                src="https://picsum.photos/150/150?random=3" 
-                                alt="client logo" 
-                                className="partner-logo"
-                            />
-                            <h1 className="partner-title">Client Three</h1>
-                        </div>
-
-                        <div className="partner-card">
-                            <img 
-                                src="https://picsum.photos/150/150?random=4" 
-                                alt="client logo" 
-                                className="partner-logo"
-                            />
-                            <h1 className="partner-title">Client Four</h1>
-                        </div>
-
-                        <div className="partner-card">
-                            <img 
-                                src="https://picsum.photos/150/150?random=4" 
-                                alt="client logo" 
-                                className="partner-logo"
-                            />
-                            <h1 className="partner-title">Client Four</h1>
-                        </div>
-                        
-                        <div className="partner-card">
-                            <img 
-                                src="https://picsum.photos/150/150?random=4" 
-                                alt="client logo" 
-                                className="partner-logo"
-                            />
-                            <h1 className="partner-title">Client Four</h1>
-                        </div>
+                        {
+                            partners.map((partner, index) => (
+                                <div id={index} className="partner-card">
+                                    <img 
+                                        src={partner.logo}
+                                        alt={`Logo of ${partner.name}`}
+                                        className="partner-logo"
+                                    />
+                                    <h1 className="partner-title">{partner.name}</h1>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </section>
