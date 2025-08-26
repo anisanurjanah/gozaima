@@ -1,29 +1,24 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Product from './components/Product'
-import Steps from './components/Steps'
-import Testimonials from './components/Testimonials'
-import CallToAction from './components/CTA'
-import FrequentlyAskedQuestions from './components/FAQ'
-import Partner from './components/Partner'
-import Footer from './components/Footer'
+import { Routes, Route } from "react-router-dom";
+
+
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+
+import Home from "@/pages/Home";
+import About from "@/pages/About";
+import Blog from "@/pages/Blog";
+import Contact from "@/pages/Contact";
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
-
-      <div class="container max-w-screen-xl mx-auto p-4">  
-        <Product />
-        <Steps />
-        <Testimonials />
-        <CallToAction />
-        <FrequentlyAskedQuestions />
-        <Partner />
-      </div>
-      
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
       <Footer />
     </>
   )

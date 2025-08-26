@@ -1,13 +1,25 @@
-import { Menu } from "lucide-react";
+import { useState } from "react";
+import { Menu, Wallet } from "lucide-react";
 
 export default function Header() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const navLinks = [
+        { name: "Home", href: "/"},
+        { name: "About", href: "/about"},
+        { name: "Product", href: "#product"},
+        { name: "How It Works", href: "#steps"},
+        { name: "Testimonials", href: "#testimonials"},
+        { name: "Blog", href: "/blog"},
+    ];
+
     return (
         <>
             <header>
                 <div className="header-wrapper">
                     <div className="header-container">
-                        <div className="md:flex md:items-center md:gap-12">
-                            <a className="logo-link" href="#">
+                        <div className="header-logo">
+                            <a className="logo-link" href="/">
                                 <span className="sr-only">Home</span>
                                 <svg className="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -18,60 +30,44 @@ export default function Header() {
                             </a>
                         </div>
 
-                        <div className="hidden md:block">
+                        <div className="nav-links-container">
                             <nav aria-label="Global">
                                 <ul className="nav-list">
-                                    <li>
-                                        <a className="nav-link" href="#"> About </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="nav-link" href="#"> Careers </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="nav-link" href="#"> History </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="nav-link" href="#"> Services </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="nav-link" href="#"> Projects </a>
-                                    </li>
-
-                                    <li>
-                                        <a className="nav-link" href="#"> Blog </a>
-                                    </li>
+                                    {
+                                        navLinks.map((link) => (
+                                            <li 
+                                                key={link.name}
+                                            >
+                                                <a className="nav-link" href={link.href}>{link.name}</a>
+                                            </li>
+                                        ))
+                                    }
                                 </ul>
                             </nav>
                         </div>
 
-                        <div className="flex items-center gap-4">
-                            <div className="sm:flex sm:gap-4">
+                        <div className="nav-actions">
+                            <div className="nav-buttons">
                                 <a
                                     className="btn btn-primary"
-                                    href="#"
+                                    href="/contact"
                                 >
-                                    Login
+                                    Contact
                                 </a>
-
-                                <div className="hidden sm:flex">
-                                    <a
-                                        className="btn btn-secondary"
-                                        href="#"
-                                    >
-                                        Register
-                                    </a>
-                                </div>
                             </div>
 
-                            <div className="block md:hidden">
+                            <div className="nav-menu">
                                 <button
-                                    className="btn-menu"
+                                    onClick={() => setIsOpen(!isOpen)}
+                                    className="btn btn-menu"
                                 >
-                                    <Menu />
+                                    {
+                                        isOpen ? (
+                                            <Wallet />
+                                        ) : (
+                                            <Menu />
+                                        )
+                                    }
                                 </button>
                             </div>
                         </div>
