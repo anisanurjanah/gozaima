@@ -156,7 +156,7 @@ html {
 
 /* PRODUCT CARD */
 .product-card-grid {
-  @apply mt-8 gap-4 grid grid-cols-3;
+  @apply mt-8 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
 }
 
 .product-card {
@@ -164,7 +164,7 @@ html {
 }
 
 .product-card-img {
-  @apply h-80 w-full object-cover;
+  @apply h-48 lg:h-84 w-full object-cover;
 }
 
 .product-card-body {
@@ -176,7 +176,7 @@ html {
 }
 
 .product-card-description {
-  @apply mt-2 text-pretty text-gray-700;
+  @apply mt-2 text-pretty text-gray-700 sm:h-[64px] lg:h-[128px];
 }
 
 .product-card-btn {
