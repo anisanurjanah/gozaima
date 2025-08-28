@@ -4,42 +4,42 @@
             "id": 1,
             "title": "Chicken Dimsum",
             "description": "Premium chicken dimsum made with selected meat, perfect for hotels, restaurants, and catering services.",
-            "image": "https://picsum.photos/seed/dimsum1/400/300",
+            "image": "img/2Gozaima.jpg",
             "link": "/products/chicken-dimsum"
         },
         {
             "id": 2,
             "title": "Shrimp Dimsum",
             "description": "Fresh shrimp dimsum with a soft texture and savory taste, ideal as a signature menu for your business.",
-            "image": "https://picsum.photos/seed/dimsum2/400/300",
+            "image": "img/2Gozaima.jpg",
             "link": "/products/shrimp-dimsum"
         },
         {
             "id": 3,
             "title": "Beef Dimsum",
             "description": "Juicy beef dimsum with authentic spices, practical for restaurants and franchise businesses.",
-            "image": "https://picsum.photos/seed/dimsum3/400/300",
+            "image": "img/2Gozaima.jpg",
             "link": "/products/beef-dimsum"
         },
         {
             "id": 4,
             "title": "Vegetarian Dimsum",
             "description": "Healthy dimsum made with fresh vegetables, the perfect choice for vegetarian and vegan-friendly markets.",
-            "image": "https://picsum.photos/seed/dimsum4/400/300",
+            "image": "img/2Gozaima.jpg",
             "link": "/products/vegetarian-dimsum"
         },
         {
             "id": 6,
             "title": "Frozen Dimsum Pack",
             "description": "Ready-to-cook frozen dimsum, convenient for large-scale distribution to supermarkets or resellers.",
-            "image": "https://picsum.photos/seed/dimsum5/400/300",
+            "image": "img/2Gozaima.jpg",
             "link": "/products/frozen-dimsum-pack"
         },
         {
             "id": 7,
             "title": "Premium Dimsum Mix",
             "description": "A mixed pack of various premium dimsum variants, perfect for exclusive culinary offers.",
-            "image": "https://picsum.photos/seed/dimsum6/400/300",
+            "image": "img/2Gozaima.jpg",
             "link": "/products/premium-dimsum-mix"
         }
     ]

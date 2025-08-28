@@ -10,11 +10,13 @@ export default function Home() {
     return (
         <>
             <Hero />
-            <div className="container max-w-screen-xl mx-auto p-4">  
+            <div className="container max-w-screen-xl  mx-auto p-4">
                 <Product />
                 <Steps />
                 <Testimonials />
-                <CallToAction />
+            </div>
+            <CallToAction />
+            <div className="container max-w-screen-xl  mx-auto p-4">
                 <FrequentlyAskedQuestions />
                 <Partner />
             </div>

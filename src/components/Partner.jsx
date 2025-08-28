@@ -7,7 +7,7 @@ export default function Partner() {
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title">
-                            Our Clients
+                            Our <span className='partner-highlight'>Clients</span>
                         </h2>
 
                         <p className="section-subtitle">

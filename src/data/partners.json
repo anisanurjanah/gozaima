@@ -2,31 +2,31 @@
     {
         "id": 1,
         "name": "Client One",
-        "logo": "https://picsum.photos/150/150?random=1"
+        "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 2,
         "name": "Client Two",
-        "logo": "https://picsum.photos/150/150?random=2"
+        "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 3,
         "name": "Client Three",
-        "logo": "https://picsum.photos/150/150?random=3"
+        "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 4,
         "name": "Client Four",
-        "logo": "https://picsum.photos/150/150?random=4"
+        "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 5,
         "name": "Client Five",
-        "logo": "https://picsum.photos/150/150?random=5"
+        "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 6,
         "name": "Client Six",
-        "logo": "https://picsum.photos/150/150?random=6"
+        "logo": "img/1_GOZAIMA.png"
     }
 ]

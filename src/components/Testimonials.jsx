@@ -7,7 +7,7 @@ export default function Testimonials() {
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title">
-                            What Our <span className="text-blue-500 ">Clients</span> Say
+                            What Our <span className="testimonial-highlight">Clients</span> Say
                         </h2>
 
                         <p className="section-subtitle">
