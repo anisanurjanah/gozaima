@@ -15,11 +15,11 @@ export default function FrequentlyAskedQuestions() {
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title">
-                            Frequently Asked Questions
+                            Pertanyaan yang Sering Diajukan
                         </h2>
 
                         <p className="section-subtitle">
-                           Everything you need to know before partnering with us.
+                            Informasi penting yang perlu Anda ketahui sebelum bermitra dengan kami.
                         </p>
                     </header>
 

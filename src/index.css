@@ -132,12 +132,8 @@ html {
   @apply relative h-[350px] sm:h-[450px];
 }
 
-.product-highlight-img-primary {
+.product-highlight-img {
   @apply absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0 transition-opacity duration-300;
-}
-
-.product-highlight-img-hover {
-  @apply absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300;
 }
 
 .product-highlight-content {

@@ -5,12 +5,12 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const navLinks = [
-        { name: "Home", href: "/"},
-        { name: "About", href: "/about"},
-        { name: "Product", href: "#product"},
-        { name: "How It Works", href: "#steps"},
-        { name: "Testimonials", href: "#testimonials"},
-        { name: "Blog", href: "/blog"},
+        { name: "Beranda", href: "/"},
+        { name: "Tentang Kami", href: "/about"},
+        { name: "Produk", href: "#product"},
+        { name: "Cara Kerja", href: "#steps"},
+        { name: "Cerita Klien", href: "#testimonials"},
+        { name: "Artikel", href: "/blog"},
     ];
 
     return (
@@ -20,7 +20,7 @@ export default function Header() {
                     <div className="header-container">
                         <div className="header-logo">
                             <a className="logo-link" href="/">
-                                <span className="sr-only">Home</span>
+                                <span className="sr-only">Beranda</span>
                                 <img src="img/1_GOZAIMA.png" alt="Logo Gozaima" className="h-8" />
                             </a>
                         </div>
@@ -47,7 +47,7 @@ export default function Header() {
                                     className="nav-menu-btn"
                                     href="/contact"
                                 >
-                                    Contact
+                                    Hubungi Kami
                                 </a>
                             </div>
 

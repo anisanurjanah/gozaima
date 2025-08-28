@@ -2,26 +2,26 @@
     "data": [
         {
             "id": 1,
-            "title": "Send Inquiry",
-            "description": "Contact us to request product details, pricing, and minimum order quantity (MOQ).",
+            "title": "Kirim Permintaan",
+            "description": "Hubungi kami untuk info detail produk, harga, dan minimum order (MOQ).",
             "icon": "MailPlus"
         },
         {
             "id": 2,
-            "title": "Get Quotation & Confirm",
-            "description": "We provide a tailored quotation. Once terms are agreed, confirm your purchase order.",
+            "title": "Dapatkan Penawaran & Konfirmasi",
+            "description": "Kami kasih penawaran khusus sesuai kebutuhan bisnismu. Setelah sepakat, langsung konfirmasi pesanan.",
             "icon": "FileCheck"
         },
         {
             "id": 3,
-            "title": "Production & Packaging",
-            "description": "Your dimsum order will be freshly produced, frozen, and packaged for distribution.",
+            "title": "Produksi & Packaging",
+            "description": "Pesanan dimsum kamu diproduksi fresh, dibekukan, dan dipacking rapi siap distribusi.",
             "icon": "PackageCheck"
         },
         {
             "id": 4,
-            "title": "Delivery & Ongoing Support",
-            "description": "We deliver on time and provide support for repeat orders and long-term partnerships.",
+            "title": "Pengiriman & Support Berkelanjutan",
+            "description": "Kami antar tepat waktu dan siap support untuk repeat order maupun kerjasama jangka panjang.",
             "icon": "Truck"
         }
     ]

@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Client One",
+        "name": "Klien Utama",
         "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 2,
-        "name": "Client Two",
+        "name": "Klien Satu",
         "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 3,
-        "name": "Client Three",
+        "name": "Klien Dua",
         "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 4,
-        "name": "Client Four",
+        "name": "Klien Tiga",
         "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 5,
-        "name": "Client Five",
+        "name": "Klien Empat",
         "logo": "img/1_GOZAIMA.png"
     },
     {
         "id": 6,
-        "name": "Client Six",
+        "name": "Klien Lima",
         "logo": "img/1_GOZAIMA.png"
     }
 ]

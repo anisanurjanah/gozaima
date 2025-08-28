@@ -11,12 +11,12 @@ export default function Product() {
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title text-center">
-                            Dimsum Collection
+                            Koleksi Dimsum
                         </h2>
 
                         <p className="section-subtitle text-center">
-                            Discover our handpicked selection of dimsum, crafted with authentic taste 
-                            and a modern twist. Perfect for sharing, snacking, or indulging anytime.
+                            Jelajahi pilihan dimsum terbaik kami, dibuat dengan rasa otentik dan sentuhan modern. 
+                            Cocok untuk stok bisnis, jadi menu andalan resto, atau sekadar camilan premium.
                         </p>
                     </header>
 
@@ -29,12 +29,7 @@ export default function Product() {
                                             <img
                                                 src={productHighlight.image}
                                                 alt=""
-                                                className="product-highlight-img-primary"
-                                            />
-                                            <img
-                                                src="https://images.unsplash.com/photo-1593795899630-b6033c0fa58d?auto=format&fit=crop&w=774&q=80"
-                                                alt=""
-                                                className="product-highlight-img-hover"
+                                                className="product-highlight-img"
                                             />
                                         </div>
 
@@ -45,7 +40,7 @@ export default function Product() {
                                                 onClick={() => productHighlight.link}
                                                 className="product-highlight-btn"
                                             >
-                                                Learn More
+                                                Lihat Detail
                                             </button>
                                         </div>
                                     </a>
@@ -67,12 +62,6 @@ export default function Product() {
                                         <div className="product-card-body">
                                             <strong className="product-card-title">{product.title}</strong>
                                             <p className="product-card-description">{product.description}</p>
-                                            <button
-                                                onClick={() => product.link}
-                                                className="product-card-btn"
-                                            >
-                                                Learn More
-                                            </button>
                                         </div>
                                     </a>
                                 </li>

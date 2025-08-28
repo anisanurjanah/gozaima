@@ -5,12 +5,12 @@ export default function CallToAction() {
                 <div className="cta-content">
                     <div className="cta-inner">
                         <h2 className="cta-title">
-                            Partner With Us for Premium Dimsum Supply
+                            Jadi Partner Kami untuk Suplai Dimsum Premium
                         </h2>
 
                         <p className="cta-subtitle">
-                            We provide high–quality frozen dimsum in bulk for restaurants, hotels, catering services, and resellers. 
-                            Enjoy consistent taste, reliable delivery, and competitive wholesale pricing to grow your business with us.
+                            Kami menyediakan dimsum beku berkualitas tinggi dalam jumlah besar untuk restoran, hotel, catering, dan reseller.  
+                            Rasa konsisten, pengiriman tepat waktu, dan harga grosir kompetitif siap bantu bisnismu tumbuh bareng kami.
                         </p>
 
                         <div className="cta-btn-wrapper">
@@ -18,7 +18,7 @@ export default function CallToAction() {
                                 href="#"
                                 className="cta-btn"
                             >
-                                Request a Quote
+                                Ambil Penawaran
                             </a>
                         </div>
                     </div>

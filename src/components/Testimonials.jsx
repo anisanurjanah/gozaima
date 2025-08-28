@@ -7,12 +7,11 @@ export default function Testimonials() {
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title">
-                            What Our <span className="testimonial-highlight">Clients</span> Say
+                            Apa Kata <span className="testimonial-highlight">Klien</span> Kami
                         </h2>
 
                         <p className="section-subtitle">
-                            Discover how our clients have transformed their ideas into reality with us.  
-                            Real stories. Real results.
+                            Pelajari bagaimana klien kami mengembangkan bisnis bersama kami. Bukti nyata, hasil nyata.
                         </p>
                     </header>
                         

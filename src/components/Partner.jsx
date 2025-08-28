@@ -7,12 +7,11 @@ export default function Partner() {
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title">
-                            Our <span className='partner-highlight'>Clients</span>
+                            <span className='partner-highlight'>Partner</span> Kami
                         </h2>
 
                         <p className="section-subtitle">
-                            Trusted by amazing brands and businesses who believe in what we do.  
-                            Here’s a glimpse of the people we’ve partnered with along the way.
+                            Dipercaya berbagai brand dan bisnis keren yang connect dengan visi kami.  
                         </p>
                     </header>
 

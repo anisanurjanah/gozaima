@@ -8,12 +8,12 @@ export default function Steps() {
                 <div className="section-wrapper">
                     <header>
                         <h2 className="section-title">
-                            How It Works
+                            Cara Kerja
                         </h2>
 
                         <p className="section-subtitle">
-                            Discover a simple step-by-step process designed to make your experience 
-                            effortless, fast, and enjoyable.
+                            Ikuti langkah sederhana yang kami rancang biar prosesnya gampang, cepat, 
+                            dan pastinya menyenangkan.
                         </p>
                     </header>
 

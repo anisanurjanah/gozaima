@@ -10,7 +10,7 @@ export default function Footer() {
                             </div>
 
                             <p className="footer-brand-text">
-                                Crafted with passion, serving authentic dim sum flavors that bring people together. 
+                                Kami percaya setiap gigitan dimsum bisa menghadirkan alasan orang buat kumpul bareng.
                             </p>
 
                             <ul className="footer-socials">
@@ -66,10 +66,8 @@ export default function Footer() {
                         </div>
 
                         <div className="footer-links-grid">
-                            
-
                             <div className="footer-section">
-                                <h2>Our Services</h2>
+                                <h2>Produk Kami</h2>
 
                                 <ul className="footer-links">
                                     <li>
@@ -87,7 +85,7 @@ export default function Footer() {
                             </div>
 
                             <div className="footer-section">
-                                <h2>Helpful Links</h2>
+                                <h2>Tautan Mitra</h2>
 
                                 <ul className="footer-links">
                                     <li>
@@ -101,7 +99,7 @@ export default function Footer() {
                             </div>
 
                             <div className="footer-section">
-                                <h2>Contact Us</h2>
+                                <h2>Hubungi Kami</h2>
 
                                 <ul className="footer-links">
                                     <li>
@@ -185,13 +183,13 @@ export default function Footer() {
                     <div className="footer-bottom">
                         <div className="footer-bottom-content">
                             <p className="footer-bottom-text">
-                                <span className="block sm:inline">All rights reserved.</span>
+                                <span className="block sm:inline">Semua Hak Dilindungi.</span>
 
                                 <a
-                                    className="footer-bottom-link"
+                                    className="footer-bottom-link mx-1"
                                     href="#"
                                 >
-                                    Terms & Conditions
+                                    Syarat & Ketentuan
                                 </a>
 
                                 <span>&middot;</span>
@@ -200,7 +198,7 @@ export default function Footer() {
                                     className="footer-bottom-link"
                                     href="#"
                                 >
-                                    Privacy Policy
+                                    Kebijakan Privasi
                                 </a>
                             </p>
 

@@ -1,46 +1,46 @@
 {
     "data": [
         {
-            "id": 1,
-            "title": "Chicken Dimsum",
-            "description": "Premium chicken dimsum made with selected meat, perfect for hotels, restaurants, and catering services.",
-            "image": "img/2Gozaima.jpg",
-            "link": "/products/chicken-dimsum"
+          "id": 1,
+          "title": "Dimsum Ayam",
+          "description": "Dimsum ayam premium dengan daging pilihan, cocok banget untuk hotel, restoran, dan layanan catering.",
+          "image": "img/2Gozaima.jpg",
+          "link": "/products/chicken-dimsum"
         },
         {
-            "id": 2,
-            "title": "Shrimp Dimsum",
-            "description": "Fresh shrimp dimsum with a soft texture and savory taste, ideal as a signature menu for your business.",
-            "image": "img/2Gozaima.jpg",
-            "link": "/products/shrimp-dimsum"
+          "id": 2,
+          "title": "Dimsum Udang",
+          "description": "Dimsum udang segar dengan tekstur lembut dan rasa gurih, pas jadi menu andalan bisnis F&B kamu.",
+          "image": "img/2Gozaima.jpg",
+          "link": "/products/shrimp-dimsum"
         },
         {
-            "id": 3,
-            "title": "Beef Dimsum",
-            "description": "Juicy beef dimsum with authentic spices, practical for restaurants and franchise businesses.",
-            "image": "img/2Gozaima.jpg",
-            "link": "/products/beef-dimsum"
+          "id": 3,
+          "title": "Dimsum Sapi",
+          "description": "Dimsum sapi juicy dengan bumbu autentik, praktis untuk restoran maupun bisnis franchise.",
+          "image": "img/2Gozaima.jpg",
+          "link": "/products/beef-dimsum"
         },
         {
-            "id": 4,
-            "title": "Vegetarian Dimsum",
-            "description": "Healthy dimsum made with fresh vegetables, the perfect choice for vegetarian and vegan-friendly markets.",
-            "image": "img/2Gozaima.jpg",
-            "link": "/products/vegetarian-dimsum"
+          "id": 4,
+          "title": "Dimsum Vegetarian",
+          "description": "Dimsum sehat dari sayuran segar, pilihan tepat buat pasar vegetarian dan vegan-friendly.",
+          "image": "img/2Gozaima.jpg",
+          "link": "/products/vegetarian-dimsum"
         },
         {
-            "id": 6,
-            "title": "Frozen Dimsum Pack",
-            "description": "Ready-to-cook frozen dimsum, convenient for large-scale distribution to supermarkets or resellers.",
-            "image": "img/2Gozaima.jpg",
-            "link": "/products/frozen-dimsum-pack"
+          "id": 6,
+          "title": "Paket Dimsum Frozen",
+          "description": "Dimsum beku siap masak, praktis untuk distribusi besar ke supermarket atau reseller.",
+          "image": "img/2Gozaima.jpg",
+          "link": "/products/frozen-dimsum-pack"
         },
         {
-            "id": 7,
-            "title": "Premium Dimsum Mix",
-            "description": "A mixed pack of various premium dimsum variants, perfect for exclusive culinary offers.",
-            "image": "img/2Gozaima.jpg",
-            "link": "/products/premium-dimsum-mix"
+          "id": 7,
+          "title": "Mix Dimsum Premium",
+          "description": "Paket campuran berbagai varian dimsum premium, ideal untuk penawaran kuliner eksklusif.",
+          "image": "img/2Gozaima.jpg",
+          "link": "/products/premium-dimsum-mix"
         }
     ]
 }
